@@ -1,0 +1,1 @@
+ while(getline(file1,onelinestatement)){
