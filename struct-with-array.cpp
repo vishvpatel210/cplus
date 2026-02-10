@@ -5,7 +5,7 @@ using namespace std;
 struct employee{
     int id;
     string name;
-    int salary
+    int salary;
 };
 
 int main(){
