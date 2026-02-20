@@ -1,6 +1,7 @@
 #include<iostream>
 #include<vector>
 #include<list>
+#include<map>
 
 using namespace std;
 
@@ -24,5 +25,21 @@ int main(){
         ++itr1;
     }
 
+
+    
+    cout << "map element are begin printed one by one..." << endl;
+
+    map<int,string> m;
+
+    m[0] = "vishv";
+    m[1] = "rehan";
+    m[2] = "dax";
+
+    auto itr3 = m.begin();
+
+    while(itr3 != m.end()){
+        cout << "Forward Iterator and tthe keyy is:  " << itr3->first << "it's value is:  " << itr3->second << endl;
+        ++itr3;
+    }
     return 0;
 }
