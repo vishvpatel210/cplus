@@ -29,7 +29,7 @@ class Laptop{
 
 class Lenovo : public Laptop{
     
-    // Distinct Data members...
+    // Distinct Data members...hiii this is important
      
      public:
         
